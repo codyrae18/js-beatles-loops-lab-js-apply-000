@@ -30,8 +30,8 @@ function iLoveTheBeatles(n){
   } while (n < 15);
   return love;
  
-=======
-  const arr = []
+
+  let arr = []
 
   for (let i = 0, l = musicians.length; i < l; i++) {
     arr.push(`musicians[i] + "plays" + instruments[i]`)
@@ -62,5 +62,5 @@ function iLoveTheBeatles(n) {
   } while (n < 15)
 
   return arr
->>>>>>> d06caef343ddfb0e5ec414ce80adc67bf204a05b
+
 }
