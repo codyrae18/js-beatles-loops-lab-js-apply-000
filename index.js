@@ -15,7 +15,7 @@ function johnLennonFacts(facts){
   let shout = [];
   
   let i = 0;
-  while(i< facts.length){
+  while(i < facts.length){
     console.log(facts[i] + "!!!");
     i++
   }
@@ -29,16 +29,7 @@ function iLoveTheBeatles(n){
     n++;
   } while (n < 15);
   return love;
- 
-
-  var arr = [
-  for (let i = 0, l = musicians.length; i < l; i++) {
-    arr.push(`musicians[i] + "plays" + instruments[i]`)
-  }
-
-  return arr
-}
-
+ }
 
 function johnLennonFacts(facts) {
   const shoutedFacts = []
