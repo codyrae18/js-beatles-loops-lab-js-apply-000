@@ -3,7 +3,6 @@ var instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
 
 
 function theBeatlesPlay(musicians, instruments){
-<<<<<<< HEAD
 var empty = [];
 for(var i in musicians){
   empty.push(musicians[i] + " plays " + instruments[i]);
@@ -17,7 +16,7 @@ function johnLennonFacts(facts){
   
   let i = 0;
   while(i< facts.length){
-    shout.push(`${facts[i]}!!!`)
+    console.log(facts[i]!!!);
     i++
   }
   return shout;
