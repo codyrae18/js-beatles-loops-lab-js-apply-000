@@ -30,27 +30,3 @@ function iLoveTheBeatles(n){
   } while (n < 15);
   return love;
  }
-
-function johnLennonFacts(facts) {
-  const shoutedFacts = []
-
-  let i = 0
-  while (i < facts.length) {
-    console.log(facts[i] + "!!!")
-    i++
-  }
-
-  return shoutedFacts
-}
-
-function iLoveTheBeatles(n) {
-  const arr = []
-
-  do {
-    arr.push('I love the Beatles!')
-    n++
-  } while (n < 15)
-
-  return arr
-
-}
